@@ -28,3 +28,10 @@ public class Objeto {
 		this.habilidad = habilidad;
 		this.durabilidad = durabilidad;
 	}
+	
+	public Objeto(String nombre,int precio) {
+		this(nombre,precio,TipoDeObjeto.POCION,0,0,0,0,null,1,false);
+	
+	}
+	
+}
